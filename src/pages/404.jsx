@@ -7,7 +7,7 @@ export default function Custom404() {
   useEffect(() => {
     console.log(router);
     let timer = setTimeout(() => {
-      router.push('/projects');
+      router.push('/products');
     }, 5000);
   });
 

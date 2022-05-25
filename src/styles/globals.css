@@ -1,4 +1,5 @@
 @import url(./reset.css);
+@import url(./paging.css);
 html,
 body {
   padding: 0;

@@ -10,7 +10,7 @@ export const Header = () => {
         </Link>
         <MenuList>
           <MenuItem>
-            <Link href="/categories">
+            <Link href="/category">
               <p>Category</p>
             </Link>
           </MenuItem>
@@ -22,6 +22,11 @@ export const Header = () => {
           <MenuItem>
             <Link href="/colors">
               <p>Color</p>
+            </Link>
+          </MenuItem>
+          <MenuItem>
+            <Link href="/prices">
+              <p>Price</p>
             </Link>
           </MenuItem>
         </MenuList>
